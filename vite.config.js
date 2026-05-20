@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/devocional/', 
+  base: './', // <-- Cambiamos '/devocional/' por './'
 })
